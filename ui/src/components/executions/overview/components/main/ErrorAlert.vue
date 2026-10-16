@@ -93,7 +93,7 @@
     })
 </script>
 
-<style scoped lang="scss">
+<style scoped>
     .error-wrapper {
         position: relative;
         min-width: 0;
@@ -132,7 +132,7 @@
         min-width: 0;
         overflow: hidden;
 
-        :deep(.kel-alert__content) {
+        & :deep(.kel-alert__content) {
             min-width: 0;
             width: 100%;
             gap: 0;
@@ -156,7 +156,7 @@
                 .logs {
                     padding-top: var(--ks-spacing-5);
 
-                    > div {
+                    & > div {
                         width: 100%;
                     }
 

@@ -113,7 +113,7 @@
     onBeforeUnmount(() => routeTabsStore.clearTabsIfOwner(tabsOwnerId))
 </script>
 
-<style scoped lang="scss">
+<style scoped>
     .main-container {
         padding: var(--ks-spacing-6) !important;
 

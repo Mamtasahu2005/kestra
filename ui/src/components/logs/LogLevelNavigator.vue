@@ -44,7 +44,7 @@
             ? {border: `1px solid var(--ks-log-border-${level.toLowerCase()})`}
             : {}
 </script>
-<style scoped lang="scss">
+<style scoped>
 .kel-select__wrapper {
     cursor: unset;
     font-size: var(--ks-font-size-xs);

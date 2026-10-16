@@ -75,7 +75,7 @@
     })()
 </script>
 
-<style scoped lang="scss">
+<style scoped>
     .card {
         transition: border-color 0.2s ease;
 
